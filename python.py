@@ -7,3 +7,9 @@ for num in X:
   print ("Found the number : {}".format(num)
  else:
   print ("Did not find the number")
+
+try:
+ name = input("Enter you name : ")
+ print (name)
+except:
+ print ("Cannot understand the input")
